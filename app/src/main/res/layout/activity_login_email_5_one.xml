@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="loginEmail5OneVM" type="com.guneetsapplication.app.modules.loginemail5one.data.viewmodel.LoginEmail5OneVM"/>
+    </data>
+    <LinearLayout android:id="@+id/linearLoginEmail5"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <FrameLayout android:gravity="center_horizontal"
+            android:id="@+id/frameStackOne"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" style="@style/groupStylewhite_A700cornerRadius">
+            <FrameLayout android:id="@+id/frameStackvectorOne"
+                android:layout_gravity="center"
+                android:layout_height="@dimen/_763pxv" android:layout_width="@dimen/_374pxh">
+                <ImageView android:id="@+id/imageVectorOne"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_vector"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_vector"/>
+                <LinearLayout android:id="@+id/linearColumnhappiesth"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_38pxv"
+                    android:layout_marginEnd="@dimen/_16pxh"
+                    android:layout_marginStart="@dimen/_19pxh"
+                    android:layout_marginTop="@dimen/_16pxv"
+                    android:layout_width="match_parent" android:orientation="vertical">
+                    <FrameLayout android:id="@+id/frameStackhappiesthe"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="@dimen/_64pxv" android:layout_width="@dimen/_166pxh">
+                        <ImageView android:id="@+id/imageHappiesthealth"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_48pxh"
+                            android:layout_marginStart="@dimen/_9pxh"
+                            android:layout_width="@dimen/_132pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_happiesthealth"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_happiesthealth"/>
+                        <FrameLayout android:id="@+id/frameStack"
+                            android:layout_gravity="center"
+                            android:layout_height="@dimen/_64pxv"
+                            android:layout_width="@dimen/_166pxh"
+                            android:paddingBottom="@dimen/_10pxv"
+                            android:paddingEnd="@dimen/_14pxh"
+                            android:paddingStart="@dimen/_14pxh"
+                            android:paddingTop="@dimen/_10pxv" style="@style/groupStylegray_50cornerRadius">
+                            <ImageView android:id="@+id/imageImage"
+                                android:layout_gravity="center"
+                                android:layout_height="@dimen/_43pxh"
+                                android:layout_width="@dimen/_136pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_group"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_group"/>
+                        </FrameLayout>
+                    </FrameLayout>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtDiscover"
+                        android:layout_gravity="start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_30pxv"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@{loginEmail5OneVM.loginEmail5OneModel.txtDiscover}"
+                        style="@style/txtRobotoromanbold20" tools:text="@string/lbl_sign_in"/>
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearColumndiscover"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_37pxv"
+                        android:layout_width="match_parent" android:orientation="vertical">
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtDiscoverOne"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:singleLine="true"
+                            android:text="@{loginEmail5OneVM.loginEmail5OneModel.txtDiscoverOne}"
+                            style="@style/txtRobotoromanregular16" tools:text="@string/lbl_email_address"/>
+                        <EditText
+                            android:background="@drawable/rectangle_bg_white_a700_border_teal_200_01_radius_6"
+                            android:ellipsize="end"
+                            android:hint="@string/msg_please_enter_your"
+                            android:id="@+id/etEmail"
+                            android:inputType="text"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_8pxv"
+                            android:layout_width="match_parent"
+                            android:paddingBottom="@dimen/_10pxv"
+                            android:paddingEnd="@dimen/_16pxh"
+                            android:paddingStart="@dimen/_16pxh"
+                            android:paddingTop="@dimen/_10pxv"
+                            android:singleLine="true"
+                            android:text="@={loginEmail5OneVM.loginEmail5OneModel.etEmailValue}"
+                            android:textColorHint="@color/gray_500"
+                            style="@style/etSolidRoundedOutline" tools:ignore="Autofill"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearColumndiscover1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_22pxv"
+                        android:layout_width="match_parent" android:orientation="vertical">
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtDiscoverTwo"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:singleLine="true"
+                            android:text="@{loginEmail5OneVM.loginEmail5OneModel.txtDiscoverTwo}"
+                            style="@style/txtRobotoromanregular16" tools:text="@string/lbl_password"/>
+                        <EditText
+                            android:background="@drawable/rectangle_bg_white_a700_border_teal_200_01_radius_6"
+                            android:ellipsize="end"
+                            android:hint="@string/msg_please_enter_password"
+                            android:id="@+id/etPassword"
+                            android:inputType="text"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_8pxv"
+                            android:layout_width="match_parent"
+                            android:paddingBottom="@dimen/_10pxv"
+                            android:paddingEnd="@dimen/_16pxh"
+                            android:paddingStart="@dimen/_16pxh"
+                            android:paddingTop="@dimen/_10pxv"
+                            android:singleLine="true"
+                            android:text="@={loginEmail5OneVM.loginEmail5OneModel.etPasswordValue}"
+                            android:textColorHint="@color/gray_500"
+                            style="@style/etSolidRoundedOutline" tools:ignore="Autofill"/>
+                    </LinearLayout>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtDiscoverThree"
+                        android:layout_gravity="end"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_24pxv"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@{loginEmail5OneVM.loginEmail5OneModel.txtDiscoverThree}"
+                        style="@style/txtRobotoromanregular16_2" tools:text="@string/msg_forgot_password"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:ellipsize="end" android:gravity="center"
+                        android:id="@+id/btnLogin"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_46pxv"
+                        android:layout_width="match_parent"
+                        android:paddingBottom="@dimen/_13pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingStart="@dimen/_30pxh"
+                        android:paddingTop="@dimen/_13pxv"
+                        android:singleLine="true"
+                        android:text="@string/lbl_login"
+                        android:textAllCaps="false"
+                        style="@style/btnSolidRounded" tools:text="@string/lbl_login"/>
+                    <LinearLayout android:gravity="center_vertical"
+                        android:id="@+id/linearRowdiscover"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_22pxv"
+                        android:layout_width="wrap_content" android:orientation="horizontal">
+                        <TextView android:ellipsize="end"
+                            android:gravity="top"
+                            android:id="@+id/txtDiscoverFour"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_1pxv"
+                            android:layout_width="match_parent"
+                            android:singleLine="true"
+                            android:text="@{loginEmail5OneVM.loginEmail5OneModel.txtDiscoverFour}"
+                            style="@style/txtRobotoromanregular16_3" tools:text="@string/lbl_new_user"/>
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtDiscoverFive"
+                            android:layout_gravity="bottom"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_8pxh"
+                            android:layout_width="wrap_content"
+                            android:singleLine="true"
+                            android:text="@{loginEmail5OneVM.loginEmail5OneModel.txtDiscoverFive}"
+                            style="@style/txtRobotoromanregular16_2" tools:text="@string/lbl_register"/>
+                    </LinearLayout>
+                    <View android:id="@+id/viewView"
+                        android:layout_height="@dimen/_194pxh" android:layout_width="@dimen/_31pxh"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtDiscoverSix"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@{loginEmail5OneVM.loginEmail5OneModel.txtDiscoverSix}"
+                        style="@style/txtRobotoromanregular16_2" tools:text="@string/lbl_skip"/>
+                </LinearLayout>
+            </FrameLayout>
+            <ImageView android:id="@+id/imageImageOne"
+                android:layout_gravity="top|center"
+                android:layout_height="@dimen/_1pxv"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_clip_path_group"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_clip_path_group"/>
+        </FrameLayout>
+    </LinearLayout>
+</layout>
