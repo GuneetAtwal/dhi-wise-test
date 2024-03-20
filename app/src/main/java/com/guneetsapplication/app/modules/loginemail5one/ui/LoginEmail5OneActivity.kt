@@ -17,7 +17,7 @@ class LoginEmail5OneActivity :
     BaseActivity<ActivityLoginEmail5OneBinding>(R.layout.activity_login_email_5_one) {
   private val viewModel: LoginEmail5OneVM by viewModels<LoginEmail5OneVM>()
 
-  private val REQUEST_CODE_TOP_PICKS_OPTION12ONE_ACTIVITY: Int = 276
+  private val REQUEST_CODE_TOP_PICKS_OPTION12ONE_ACTIVITY: Int = 689
 
   override fun onInitialized(): Unit {
     viewModel.navArguments = intent.extras?.getBundle("bundle")
