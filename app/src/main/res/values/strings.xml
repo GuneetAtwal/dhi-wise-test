@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">guneet_s_application3</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="msg_improving_the_quality">Improving the quality of life in people with Parkinson\u2019s</string>
+  <string name="lbl_for_you">For You</string>
+  <string name="lbl_email_address">Email Address*</string>
+  <string name="lbl_new_user">New user?</string>
+  <string name="msg_poll_for_how_many">Poll: For how many hours do you stare at your screens each day? </string>
+  <string name="lbl_my_stories">My Stories</string>
+  <string name="lbl_login">Login</string>
+  <string name="lbl_categories">Categories</string>
+  <string name="lbl_ask_an_expert">Ask an Expert</string>
+  <string name="msg_satiety_foods_eat">Satiety foods: Eat healthy and keep hunger at bay</string>
+  <string name="lbl_wellness">Wellness</string>
+  <string name="msg_hypertrophic_cardiomyopathy">Hypertrophic Cardiomyopathy: The inherited heart risk</string>
+  <string name="lbl_sign_in">Sign in</string>
+  <string name="msg_please_enter_password">Please Enter Password</string>
+  <string name="lbl_podcasts">Podcasts</string>
+  <string name="lbl_webinars">Webinars</string>
+  <string name="lbl_top_picks">Top Picks</string>
+  <string name="lbl_more">More</string>
+  <string name="lbl_quizzes">Quizzes</string>
+  <string name="lbl_polls">Polls</string>
+  <string name="lbl_infographics">Infographics</string>
+  <string name="lbl_doc_tales">Doc Tales</string>
+  <string name="lbl_password">Password*</string>
+  <string name="lbl_new">New</string>
+  <string name="lbl_videos">Videos</string>
+  <string name="msg_forgot_password">Forgot Password?</string>
+  <string name="lbl_magazine">Magazine</string>
+  <string name="msg_please_enter_your">Please Enter Your Email</string>
+  <string name="lbl_skip">Skip</string>
+  <string name="lbl_register">Register</string>
+  <string name="lbl_articles">Articles</string>
+</resources>
