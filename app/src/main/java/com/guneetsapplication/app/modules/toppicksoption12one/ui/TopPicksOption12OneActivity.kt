@@ -1,5 +1,8 @@
 package com.guneetsapplication.app.modules.toppicksoption12one.ui
 
+import android.content.Context
+import android.content.Intent
+import android.os.Bundle
 import android.view.View
 import androidx.activity.viewModels
 import com.guneetsapplication.app.R
@@ -48,5 +51,11 @@ class TopPicksOption12OneActivity :
   companion object {
     const val TAG: String = "TOP_PICKS_OPTION12ONE_ACTIVITY"
 
+
+    fun getIntent(context: Context, bundle: Bundle?): Intent {
+      val destIntent = Intent(context, TopPicksOption12OneActivity::class.java)
+      destIntent.putExtra("bundle", bundle)
+      return destIntent
+    }
   }
 }
